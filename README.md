@@ -1,4 +1,4 @@
-### h3 jsUpload
+### jsUpload
 
 主要实现js跨域上传文件，这里的跨域目前只在两个域名所指向的服务器在同一局域网内。
 当然，这两种方案都可以做同域名上传。
@@ -13,7 +13,7 @@
 如果要在www.test.com域名下上传文件到www.video.com域名下，可以使用下面这两个方案：
 
 
-方案一(在solution1文件夹下)
+**方案一(在solution1文件夹下)**
   1. 将public下的所有文件复制到www.video.cn域名下的站点根目录下
   2. 将solution1下的所有文件复制到www.test.cn域名下的站点根目录下
   3. 浏览器打开www.test.cn域名，进行上传。上传完后www.video.cn域
@@ -23,7 +23,7 @@
   都要有crossdomain.xml文件，其配置可以自行google进一步了解。
 
 
-方案二(在solution2文件夹下)
+**方案二(在solution2文件夹下)**
   1. 将public下的所有文件复制到www.video.cn域名下的站点根目录下
   2. 将solution2下的所有文件复制到www.test.cn域名下的站点根目录下
   3. 浏览器打开www.test.cn域名，进行上传。上传完后www.video.cn域
